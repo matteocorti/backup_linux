@@ -22,6 +22,7 @@ EXCLUDES="--exclude=/var/lib/imap/socket/lmtp \
 --exclude=/var/lib/imap/proc \
 --exclude=/var/log \
 --exclude=/home/nobody/ \
+--exclude=/home/spamassassin/.spamassassin/bayes_journal \
 --exclude=/var/spool/imap/*/user/*/Drafts/* \
 --exclude=/var/spool/imap/**.NEW"
 
