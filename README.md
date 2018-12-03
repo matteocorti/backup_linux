@@ -1,2 +1,6 @@
+
+ (c) Matteo Corti, 2018
+
 # backup_linux
-Backup script
+
+A simple script to backup a Linux server with rsync
