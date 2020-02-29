@@ -31,10 +31,10 @@ BSERVER=casa.corti.li
 BUSER=corti
 BDIR=/Volumes/External/corti.li
 
-# Emergency
-#BSERVER=matteo.ethz.ch
-#BUSER=corti
-#BDIR=/home/corti/corti.li
+# new.ethz.ch
+BSERVER=new.corti.li
+BUSER=corti
+BDIR=/mnt/volume/corti.li
 
 
 ########################################################################
@@ -51,4 +51,4 @@ $EXCLUDES \
 # verbose
 # OPTS="$OPTS -v"
 
-rsync --rsh 'ssh -x ' $OPTS $DIR $BUSER@$BSERVER:$BDIR
+rsync --rsh 'ssh -x ' "$OPTS" "$DIR" $BUSER@$BSERVER:$BDIR
