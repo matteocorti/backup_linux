@@ -45,4 +45,4 @@ $EXCLUDES \
 # verbose
 # OPTS="$OPTS -v"
 
-rsync --rsh 'ssh -x ' "$OPTS" "$DIR" $BUSER@$BSERVER:$BDIR
+rsync --rsh 'ssh -x ' $OPTS $DIR $BUSER@$BSERVER:$BDIR
